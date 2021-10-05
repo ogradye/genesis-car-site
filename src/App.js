@@ -9,7 +9,6 @@ function App() {
 		<Router>
 			<div className="App">
 				<Navbar />
-
 				<section>
 					<Switch>
 						<Route path="/" exact component={Home} />
