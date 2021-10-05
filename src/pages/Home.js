@@ -26,6 +26,10 @@ export default function Home(){
 
 			<Link to="/cars/builder/g80/1" className="btn btn-primary hero-cta">Reserve your 2023 G80 Today <FontAwesomeIcon icon={faArrowRight} /></Link>
 		</div>
+
+		<section>
+			<h1 className="section-title">Genesis Vehicles</h1>
+		</section>
 	  </div>
 	)
 }

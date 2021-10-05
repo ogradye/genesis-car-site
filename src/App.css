@@ -419,3 +419,10 @@ section{
 .form-control::placeholder{
 	font-family: 'Poppins', sans-serif;
 }
+
+.section-title{
+	font-size: 2rem;
+	text-transform: uppercase;
+	font-weight: 300;
+	text-align: center;
+}
