@@ -9,18 +9,7 @@ export default function Car(props) {
 	}
 
 	const renderActivePage = () => {
-		if(props.match.params.step === '1'){
-			return <Builder car={props.match.params.car} step={1} />
-		}
-		else if(props.match.params.step === '2'){
-			return <Builder car={props.match.params.car} step={2} />;
-		}
-		else if(props.match.params.step === '3'){
-			return <Builder car={props.match.params.car} step={3} />;
-		}
-		else if(props.match.params.step === '4'){
-			return <Builder car={props.match.params.car} step={4} />;
-		}
+		return <Builder car={props.match.params.car} step={parseInt(props.match.params.step)} />
 	}
 
 	return (
